@@ -11,9 +11,9 @@ T=1/sFreq; % inter-sampling interval
 
 % R C Rc - nominal filter values (real values may differ by a few percent)
 
-R = 1; % MOhm
-C = 1; % uF 
-Rc = 10; % MOhm
+R = 1; % MΩ
+C = 1; % μF 
+Rc = 10; % MΩ
 
 % a and b calculated from the circuit diagram of the filter
 
