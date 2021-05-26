@@ -3,7 +3,7 @@
 
 function reconstrSignal=inverseRRC(filtSignal, sFreq)
 
-% filtSignal - signal after harware RRC filter
+% filtSignal - signal after hardware RRC filter
 
 % sFreq - sampling frequency in Hz
 
