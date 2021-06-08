@@ -3,7 +3,7 @@
 
 function reconstrSignal=inverseRRC(filtSignal, sFreq)
 
-% filtSignal - signal after hardware RRC filter
+% filtSignal - signal after harware RRC filter
 
 % sFreq - sampling frequency in Hz
 
@@ -11,9 +11,9 @@ T=1/sFreq; % inter-sampling interval
 
 % R C Rc - nominal filter values (real values may differ by a few percent)
 
-R = 1; % MΩ
-C = 1; % μF 
-Rc = 10; % MΩ
+R = 1; % MOhm
+C = 1; % uF 
+Rc = 10; % MOhm
 
 % a and b calculated from the circuit diagram of the filter
 
